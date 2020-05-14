@@ -16,11 +16,11 @@ pipeline {
 
         stage('AUT') {
           steps {
-            bat 'mvn'
+            bat 'mvn test'
           }
         }
 
-        stage('') {
+        stage('Generating Reports') {
           steps {
             cucumber(fileIncludePattern: '**/cucumber.json', jsonReportDirectory: 'Result/Reports/')
           }
@@ -29,7 +29,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Review Test Report') {
       steps {
         echo 'Review Test Report'
       }
