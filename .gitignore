@@ -24,7 +24,8 @@ metadata.*
 .scannerwork/
 *.iml
 target/
-Result/*
+Result/Logs/*
+Result/Reports/*
 Output/*
 Output/cucumber.json
 Output/cucumber.xml
