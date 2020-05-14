@@ -29,11 +29,5 @@ pipeline {
       }
     }
 
-    stage('Review Test Report') {
-      steps {
-        echo 'Review Test Report'
-      }
-    }
-
   }
 }
