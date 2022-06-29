@@ -20,7 +20,7 @@
         <junit.version>4.12</junit.version>
         <cucumber.version>4.2.6</cucumber.version>
         <cucumber-reporting.version>4.2.3</cucumber-reporting.version>
-        <poi.version>3.17</poi.version>
+        <poi.version>4.1.1</poi.version>
         <dom4j.version>1.6.1</dom4j.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
         <itext.version>5.5.6</itext.version>
