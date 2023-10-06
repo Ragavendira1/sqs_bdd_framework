@@ -23,7 +23,7 @@
         <poi.version>3.17</poi.version>
         <dom4j.version>1.6.1</dom4j.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
-        <itext.version>5.5.6</itext.version>
+        <itext.version>5.5.13.3</itext.version>
         <xml-apis>1.4.01</xml-apis>
         <guava.version>27.0.1-jre</guava.version>
         <failOnMissingWebXml>false</failOnMissingWebXml>
